@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85317278-f47a-42fc-ad11-d48cea926825" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Detect Vehicle Speed &amp; OCR.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/30.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/50.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/70.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCR_test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questionare.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cars.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mscoco_label_map.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oid_bbox_trainable_label_map.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pascal_label_map.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pet_label_map.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detected_vehicles/vehicle1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protos/string_int_label_map_pb2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssd_mobilenet_v1_coco_2017_11_17/frozen_inference_graph.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traffic_measurement.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/color_histogram_feature_extraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/color_recognition_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/knn_classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/test.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black10.png.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/black/black9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/blue/blue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/blue/blue1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/blue/blue2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/blue/blue3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/blue/blue4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/blue/blue5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/blue/blue6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/blue/blue7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/blue/blue8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/blue/blue9.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/green/green9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/orange/orange1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/orange/orange10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/orange/orange2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/orange/orange3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/orange/orange5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/orange/orange6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/orange/orange7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/orange/orange8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/orange/orange9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/red/red1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/red/red10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/red/red2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/red/red3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/red/red4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/red/red5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/red/red6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/red/red7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/red/red8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/red/red9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/violet/violet1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/violet/violet10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/violet/violet2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/violet/violet3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/violet/violet4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/violet/violet5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/violet/violet6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/violet/violet7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/violet/violet8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/violet/violet9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/white/white1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/white/white10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/white/white2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/white/white3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/white/white4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/white/white5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/white/white6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/white/white7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/white/white8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/white/white9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/yellow/yellow1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/yellow/yellow10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/yellow/yellow2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/yellow/yellow3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/yellow/yellow4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/yellow/yellow5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/yellow/yellow6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/yellow/yellow7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/yellow/yellow8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/color_recognition_module/training_dataset/yellow/yellow9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/image_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/image_utils/crop_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/image_utils/image_saver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/label_map_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/speed_and_direction_prediction_module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/speed_and_direction_prediction_module/speed_prediction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/visualization_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle_detection_main.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Detect_Vehicle_Speed___OCR$vehicle_detection_main.coverage" NAME="vehicle_detection_main Coverage Results" MODIFIED="1598829458400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="vehicle_detection_main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vehicle_detection_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/utils/visualization_utils.py" />
+        <option value="$PROJECT_DIR$/utils/color_recognition_module/color_histogram_feature_extraction.py" />
+        <option value="$PROJECT_DIR$/utils/color_recognition_module/color_recognition_api.py" />
+        <option value="$PROJECT_DIR$/utils/image_utils/crop_image.py" />
+        <option value="$PROJECT_DIR$/utils/image_utils/image_saver.py" />
+        <option value="$PROJECT_DIR$/utils/speed_and_direction_prediction_module/speed_prediction.py" />
+        <option value="$PROJECT_DIR$/vehicle_detection_main.py" />
+        <option value="$PROJECT_DIR$/utils/color_recognition_module/knn_classifier.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Detect Vehicle Speed &amp; OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Detect Vehicle Speed &amp; OCR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Detect Vehicle Speed &amp; OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Detect Vehicle Speed &amp; OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Detect Vehicle Speed &amp; OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Detect Vehicle Speed &amp; OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="color_recognition_module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Detect Vehicle Speed &amp; OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Detect Vehicle Speed &amp; OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="image_utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Detect Vehicle Speed &amp; OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Detect Vehicle Speed &amp; OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="speed_and_direction_prediction_module" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="vehicle_detection_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Detect Vehicle Speed &amp; OCR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vehicle_detection_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.vehicle_detection_main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85317278-f47a-42fc-ad11-d48cea926825" name="Default" comment="" />
+      <created>1598823654430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598823654430</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/utils/visualization_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/color_recognition_module/color_histogram_feature_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/color_recognition_module/color_recognition_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/color_recognition_module/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/color_recognition_module/test.data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/image_utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/image_utils/crop_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/image_utils/image_saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/color_recognition_module/knn_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/speed_and_direction_prediction_module/speed_prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/speed_and_direction_prediction_module/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/label_map_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle_detection_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
