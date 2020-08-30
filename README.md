@@ -2,7 +2,7 @@
 Vehicle Speed &amp; Number Plate Detection
 
 
-This is a program that detects the speed of a moving vehicle and also reads the number/license plate of the vehicle with the help of OCR
+This is a program that detects the speed, direction, color and type of a moving vehicle along with the recognition of the number/license plate of the vehicle with the help of OCR
 
 
 # Demo Image
@@ -11,7 +11,7 @@ This is a program that detects the speed of a moving vehicle and also reads the 
 
 # Demo
 
-![Demo](demo.webm)
+![Demo](demo.gif)
 
 
 
